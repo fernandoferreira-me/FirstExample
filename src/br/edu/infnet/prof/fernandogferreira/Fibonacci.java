@@ -13,8 +13,9 @@ public class Fibonacci {
 		// Test class printing the first 30 items in a
 		// Fibonacci sequence
 		// Example: 0 1 1 2 3 5 8
+		
 		Fibonacci fobj = new Fibonacci();
-		for (int i=0; i <= 30; i ++){
+		for (int i=0; i <= 29; i ++){
 			System.out.println("(" + i + "):" + fobj.fibo(i));
 		}
 		
